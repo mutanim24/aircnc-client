@@ -6,7 +6,7 @@ import CategoriesBox from './CategoriesBox';
 const Categories = () => {
     return (
         <Container>
-            <div className='flex flex-row justify-between'>
+            <div className='flex flex-row justify-between overflow-x-auto'>
                 {
                     categories.map(item => <CategoriesBox
                         key={item.label}
